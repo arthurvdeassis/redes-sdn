@@ -7,9 +7,9 @@
 
 > **Trabalho de Conclusão de Curso (TCC)**
 >
-> **Instituição:** Universidade Federal de Minas Gerais (UFMG)
-> **Curso:** Engenharia Elétrica
-> **Autor:** Arthur Vieira de Assis Moreira
+> **Instituição:** Universidade Federal de Minas Gerais (UFMG)\n
+> **Curso:** Engenharia Elétrica\n
+> **Autor:** Arthur Vieira de Assis Moreira\n
 > **Orientador:** Prof. Luciano de Errico
 
 ## 📌 Sobre o Projeto
