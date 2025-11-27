@@ -48,23 +48,33 @@ O estudo foi dividido em 5 cenários progressivos para validar as hipóteses:
 
 ## 🚀 Como Executar
 1. Instale o Mininet, Ryu e iPerf3
+```bash
 sudo apt-get update
 sudo apt-get install mininet openvswitch-switch python3-pip iperf3
 pip3 install ryu
+```
 
-2. Clonar o repositório
+3. Clonar o repositório
+```bash
 git clone [https://github.com/arthurvdeassis/TCC](https://github.com/arthurvdeassis/TCC)
 cd TCC
+```
 
-3. Iniciar o controlador
-# Para o switch básico (Cenário 1)
+5. Iniciar o controlador
+## Para o switch básico (Cenário 1)
+```bash
 ryu-manager simple_switch_13.app
+```
 
-# Para os cenários com QoS (Cenários 2-5)
+## Para os cenários com QoS (Cenários 2-5)
+```bash
 ryu-manager CONTROLADOR DESEJADO
+```
 
 4. Executar os experimento desejado
+```bash
 sudo python3 TESTE DESEJADO
+```
 
 ## 📜 Licença
 Este projeto foi desenvolvido para fins acadêmicos como requisito para obtenção do título de Engenheiro Eletricista. Sinta-se à vontade para utilizá-lo como referência, citando a autoria.
