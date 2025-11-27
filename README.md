@@ -18,6 +18,8 @@ Este projeto investiga o impacto de diferentes mecanismos de Qualidade de Servi�
 
 O objetivo principal é demonstrar como a separação entre plano de controle e plano de dados (SDN) facilita a implementação de políticas de tráfego flexíveis (HTB, FQ-CODEL, Policiamento) para mitigar problemas como *bufferbloat*, perda de pacotes e *jitter* em aplicações de tempo real.
 
+[![Clique para abrir o TCC em PDF](capa.png)](https://github.com/arthurvdeassis/redes-sdn/blob/master/%5BTCC%5D%20Arthur%20Vieira%20de%20Assis%20Moreira.pdf)
+
 ## 🛠️ Tecnologias e Ferramentas
 
 O ambiente experimental foi construído utilizando:
