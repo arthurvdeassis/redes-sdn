@@ -54,20 +54,21 @@ sudo apt-get install mininet openvswitch-switch python3-pip iperf3
 pip3 install ryu
 ```
 
-3. Clonar o repositório
+2. Clonar o repositório
 ```bash
 git clone [https://github.com/arthurvdeassis/TCC](https://github.com/arthurvdeassis/TCC)
 cd TCC
 ```
 
-5. Iniciar o controlador
-## Para o switch básico (Cenário 1)
+3. Iniciar o controlador
+
 ```bash
+## Para o switch básico (Cenário 1)
 ryu-manager simple_switch_13.app
 ```
 
-## Para os cenários com QoS (Cenários 2-5)
 ```bash
+## Para os cenários com QoS (Cenários 2-5)
 ryu-manager CONTROLADOR DESEJADO
 ```
 
